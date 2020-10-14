@@ -34,6 +34,10 @@ _A clear and concise description of what you expected to happen._
 - _PR that may have impacted or introduced the issue_
 - _Sentry error report_, _Intercom conversation_, _etc_
 
+**_Affected Users_**
+
+- _Insert links to impacted users here_.
+
 **_Impacted Platforms_**
 
 _Include versions, OS, browser requirements, etc as needed_
