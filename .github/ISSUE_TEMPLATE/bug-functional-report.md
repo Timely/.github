@@ -10,6 +10,10 @@ assignees: ""
 
 _A clear and concise description of what the bug is._
 
+## User information
+
+_For customer cases, user and workspace identification information_
+
 ## To Reproduce
 
 _Steps to reproduce the behavior:_
@@ -54,9 +58,9 @@ _Avoid wasting time on re-creating the right circumstance. Sharing is caring._
 
 **Username**: _demouser@whatever.com_
 
-**Password**: _**\*\*\*\*\*** (otherwise, put in 1Password)_
+**Password**: _1password reference_
 
-**Workspace**: https://app.betimely.com/1234/
+**Workspace**: <Workspace URL>
 
 ## _Checks (for client-side bugs)_
 
