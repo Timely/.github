@@ -10,7 +10,7 @@ assignees: ""
 
 _A clear and concise description of what the bug is._
 
-## User information
+## User/Account information
 
 _For customer cases, user and workspace identification information_
 
