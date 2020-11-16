@@ -11,8 +11,8 @@ assignees: ""
 _A clear and concise description of what the bug is._
 
 ## User/Account information
+* [User ID/Account ID](https://www..)
 
-_For customer cases, user and workspace identification information_
 
 ## To Reproduce
 
