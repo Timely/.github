@@ -1,6 +1,6 @@
 ---
 name: Service Request
-about: A request for action, support, help for any internal operational or functional issue not immediately related to the capabilities of the Product itself (ie. one-off actions, updating documents/copy, privacy/data protection etc) (remove italics you don't need)
+about: A request for action, support, help for any internal operational or functional issue not immediately related to the capabilities of the Product itself
 title: ""
 labels: "Type: Service Request, Product: Timely"
 assignees: "nickhorrell, lisarost"
@@ -10,7 +10,7 @@ _What needs to be done? Use numbered or bullet pointed steps if possible. The mo
 
 ## User/Account information
 * [User ID/Account ID](https://www..) Number of users on workspace, trial or paying
-* 
+
 ## Urgency and Impact
 _What are the timeframes for this? + What happens if we don’t get this done by this date?_
 
