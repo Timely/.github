@@ -12,8 +12,7 @@ _What needs to be done? Use numbered or bullet pointed steps if possible. The mo
 
 ## User/Account information
 
-- [User ID/Account ID](https://www..)
-- Number of users on workspace, trial or paying
+- [User ID/Account ID](https://www..) - Number of users on workspace & Status (trial, active?)
 
 ## Urgency and Impact
 
