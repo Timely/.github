@@ -3,7 +3,7 @@ name: Dewo - Bug Report
 about: An aspect of Dewo is not working the way it is designed/intended to function
 title: ""
 labels: "Type: Bug, Product: Dewo"
-assignees: ""
+assignees: "dimdal, lisarost"
 ---
 
 ## Describe the bug
