@@ -12,8 +12,7 @@ _A clear and concise description of what problem is being experienced_
 
 ## User/Account information
 
-- [User ID/Account ID](https://www..)
-- Number of users on workspace & Status (trial, active?)
+- [User ID/Account ID](https://www..) - Number of users on workspace & Status (trial, active?)
 
 ## Urgency and Impact
 
