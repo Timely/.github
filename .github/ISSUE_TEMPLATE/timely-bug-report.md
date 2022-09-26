@@ -3,7 +3,7 @@ name: Timely - Bug Report
 about: An aspect of Timely is not working the way it is designed/intended to function
 title: ""
 labels: "Type: Bug, Product: Timely"
-assignees: "nickhorrell, lisarost, philipp-memory"
+assignees: "nickhorrell, lisarost"
 ---
 
 ## Describe the bug

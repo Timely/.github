@@ -3,7 +3,7 @@ name: Timely - Service Request
 about: A request for action, support, help for any internal operational or functional issue not immediately related to the capabilities of Timely itself
 title: ""
 labels: "Type: Service Request, Product: Timely"
-assignees: "nickhorrell, lisarost, philipp-memory"
+assignees: "nickhorrell, lisarost"
 ---
 
 ## Job to be done
