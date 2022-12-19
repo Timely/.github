@@ -3,7 +3,7 @@ name: Dewo - Service Request
 about: A request for action, support, help for any internal operational or functional issue not immediately related to the capabilities of Dewo itself
 title: ""
 labels: "Type: Service Request, Product: Dewo"
-assignees: "dimdal, lisarost, philipp-memory"
+assignees: "dimdal, lisarost"
 ---
 
 ## Job to be done
