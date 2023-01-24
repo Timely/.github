@@ -9,6 +9,7 @@ body:
     attributes:
       value: |
         An external service request is a job we're doing for a customer or potential customer (lead). Requests for new features should not be submitted here, send them through the [https://portal.timelyapp.com](portal) instead.
+        ## Workspace details
   - type: input
     id: workspace-id
     attributes:
