@@ -55,7 +55,7 @@ body:
   - type: input
     id: impact
     attributes:
-      label: Impact if not completed
+      label: Impact – what happens if we don't complete it within the timeframe?
       description: What will happen if this is not completed in time?
       placeholder: ex. "the customer is very likely to churn" 
     validations:
@@ -72,11 +72,3 @@ body:
       placeholder: Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
     validations:
       required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
