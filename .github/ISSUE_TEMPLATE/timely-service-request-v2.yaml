@@ -28,7 +28,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: subscription status
+    id: subscription-status
     attributes:
       label: What is the subscription status of the workspace?
       options:
