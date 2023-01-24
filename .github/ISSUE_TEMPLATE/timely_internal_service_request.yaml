@@ -1,6 +1,6 @@
 name: Internal Service Request
 description: A request for action, support, help for an internal team or employee. Not to be used for new feature requests. 
-title: "[External Service Request]: "
+title: "[Internal Service Request]: "
 labels: ["Type: Internal Service Request", "Type: Service Request"]
 assignees:
   - lisarost
