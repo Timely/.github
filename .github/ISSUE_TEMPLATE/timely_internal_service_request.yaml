@@ -17,7 +17,7 @@ body:
       options:
         - Analytics & data
         - Access request
-        - GDPR & Security
+        - GDPR/Security
         – Other
   - type: markdown
     attributes:
