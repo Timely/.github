@@ -59,7 +59,11 @@ body:
       description: What will happen if this is not completed in time?
       placeholder: ex. "the customer is very likely to churn" 
     validations:
-      required: true      
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Job to be done
   - type: textarea
     id: job-to-be-done
     attributes:
