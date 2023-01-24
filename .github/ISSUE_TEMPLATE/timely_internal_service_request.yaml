@@ -13,12 +13,11 @@ body:
   - type: dropdown
     id: request-type
     attributes:
-      label: What's the request about?
+      label: What is the request about?
       options:
         - Analytics & data
         - Access request
         - GDPR/Security
-        – Other
   - type: markdown
     attributes:
       value: |
