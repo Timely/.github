@@ -32,16 +32,12 @@ body:
       label: Number of users on workspace
       description: Please input the number of users in the workspace. 
       placeholder: ex. 150
-    validations:
-      required: true
   - type: input
     id: workspace-mrr
     attributes:
       label: Workspace MRR
       description: Please input the MRR (current or potential) of the workspace. 
       placeholder: ex. 150
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
@@ -49,11 +45,11 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-      label: Impact if not completed
+      label: Urgency – how soon does this need to be completed?
       options:
-        - High
-        - Medium
-        - Low
+        - High (0–14 days)
+        - Medium (15–30 days)
+        - Low (30 days+)
     validations:
       required: true      
   - type: input
