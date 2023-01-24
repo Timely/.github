@@ -1,7 +1,7 @@
 name: Internal Service Request
 description: A request for action, support, help for an internal team or employee. Not to be used for new feature requests. 
 title: "[External Service Request]: "
-labels: ["Type: External Service Request", "Product: Timely", "Type: Service Request"]
+labels: ["Type: Internal Service Request", "Type: Service Request"]
 assignees:
   - lisarost
 body:
@@ -19,8 +19,6 @@ body:
         - Access request
         - GDPR & Security
         – Other
-    validations:
-      required: true
   - type: markdown
     attributes:
       value: |
