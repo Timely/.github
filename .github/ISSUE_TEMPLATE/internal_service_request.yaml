@@ -1,0 +1,57 @@
+name: Internal Service Request
+description: A request for action, support, help for an internal team or employee. Not to be used for new feature requests. 
+title: "[External Service Request]: "
+labels: ["Type: External Service Request", "Product: Timely", "Type: Service Request"]
+assignees:
+  - lisarost
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An internal service request is a job we're doing for our own teams or employees. Requests for new features should not be submitted here, send them through the [Portal](https://portal.timelyapp.com) instead.
+        ## Request type
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: What's the request about?
+      options:
+        - Analytics & data
+        - Access request
+        - GDPR & Security
+        – Other
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Urgency and impact
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency – how soon does this need to be completed?
+      options:
+        - High (0–14 days)
+        - Medium (15–30 days)
+        - Low (30 days+)
+    validations:
+      required: true      
+  - type: input
+    id: impact
+    attributes:
+      label: Impact – what happens if we don't complete it within the timeframe?
+      description: What will happen if this is not completed in time?
+      placeholder: ex. "person x is blocked from doing their job" 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Job to be done
+  - type: textarea
+    id: job-to-be-done
+    attributes:
+      label: Job to be done
+      description: What needs to be done? Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
+      placeholder: Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
+    validations:
+      required: true
