@@ -6,11 +6,11 @@ body:
       value: |
         Requests for new features should not be submitted here, send them through the [Portal](https://portal.timelyapp.com) instead.
         ## Request type
-- type: checkboxes
-  id: understand
-  attributes:
-    label: I understand that I should not send feature requests in Github.
-    description: Use the [Portal](https://portal.timelyapp.com) instead.
-    options:
-      - label: I will use the Portal to send my feature request.
-        required: true
+  - type: checkboxes
+    id: understand
+    attributes:
+      label: I understand that I should not send feature requests in Github.
+      description: Use the [Portal](https://portal.timelyapp.com) instead.
+      options:
+        - label: I will use the Portal to send my feature request.
+          required: true
