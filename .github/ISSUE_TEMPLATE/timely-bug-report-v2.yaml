@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug Report (v2)
 description: An aspect of our product(s) is not working the way it is designed/intended to function
 title: "[Bug]: "
 labels: ["Type: Bug"]
