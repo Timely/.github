@@ -1,0 +1,89 @@
+name: Bug Report
+description: An aspect of our product(s) is not working the way it is designed/intended to function
+title: "[Bug]: "
+labels: ["Type: Bug"]
+assignees:
+  - lisarost
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## About the bug
+  - type: textarea
+    id: describe-bug
+    attributes:
+      label: Describe the bug
+      description: Please provide a clear and concise description of what problem is being experienced.
+      placeholder: Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Workspace information
+  - type: input
+    id: workspace-id
+    attributes:
+      label: Workspace or user ID (if applicable)
+      description: Which workspace or user ID does the bug pertain to?
+      placeholder: ex. 879312
+    validations:
+      required: false
+  - type: dropdown
+    id: subscription-status
+    attributes:
+      label: What is the subscription status of the workspace?
+      options:
+        - In Trial
+        - Paying
+        - Expired
+  - type: input
+    id: workspace-users
+    attributes:
+      label: Number of users on workspace
+      description: Please input the number of users in the workspace. 
+      placeholder: ex. 150
+  - type: input
+    id: workspace-mrr
+    attributes:
+      label: Workspace MRR
+      description: Please input the MRR (current or potential) of the workspace. 
+      placeholder: ex. 150
+  - type: markdown
+    attributes:
+      value: |
+        ## Urgency and impact
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency – how soon does this need to be completed?
+      options:
+        - High (0–14 days)
+        - Medium (15–30 days)
+        - Low (30 days+)
+    validations:
+      required: true      
+  - type: input
+    id: impact
+    attributes:
+      label: Impact – what happens if we don't complete it within the timeframe?
+      description: What will happen if this is not completed in time?
+      placeholder: ex. "person x is blocked from doing their job" 
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Steps to reproduce
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please provide a clear and concise description of what problem is being experienced.
+      placeholder: |
+        1. _Go to..._
+        2. _Click on..._
+        3. _Scroll down to..._
+        4. _See error..._
+    validations:
+      required: false
