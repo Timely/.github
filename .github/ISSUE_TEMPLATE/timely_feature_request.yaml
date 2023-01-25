@@ -1,7 +1,5 @@
 name: Feature Request
 description: Do not send feature requests directly into Github. Use the Portal. 
-assignees:
-  - lisarost
 body:
   - type: markdown
     attributes:
