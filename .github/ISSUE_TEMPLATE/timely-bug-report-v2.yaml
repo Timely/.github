@@ -64,7 +64,7 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-      label: Urgency – how soon does this need to be completed?
+      label: Urgency – how soon does this need to be fixed?
       options:
         - High (0–14 days)
         - Medium (15–30 days)
@@ -74,8 +74,8 @@ body:
   - type: input
     id: impact
     attributes:
-      label: Impact – what happens if we don't complete it within the timeframe?
-      description: What will happen if this is not completed in time?
+      label: Impact – what happens if we don't fix it within the timeframe?
+      description: What will happen if this is not fixed in time?
       placeholder: ex. "person x is blocked from doing their job" 
     validations:
       required: true
