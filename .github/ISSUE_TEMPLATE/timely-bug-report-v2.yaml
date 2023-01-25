@@ -24,8 +24,8 @@ body:
   - type: input
     id: workspace-id
     attributes:
-      label: Workspace or user ID (if applicable)
-      description: Which workspace or user ID does the bug pertain to?
+      label: Workspace ID (if applicable)
+      description: Which workspace ID does the bug pertain to?
       placeholder: ex. 879312
     validations:
       required: false
@@ -49,6 +49,14 @@ body:
       label: Workspace MRR
       description: Please input the MRR (current or potential) of the workspace. 
       placeholder: ex. 150
+  - type: input
+    id: user-id
+    attributes:
+      label: User ID (if applicable)
+      description: Which user ID does the bug pertain to?
+      placeholder: ex. 780101
+    validations:
+      required: false
   - type: markdown
     attributes:
       value: |
