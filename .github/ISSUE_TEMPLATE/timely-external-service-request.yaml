@@ -76,7 +76,7 @@ body:
     attributes:
       value: |
         ## Contact info
-  - type: textarea
+  - type: input
     id: contact-info
     attributes:
       label: Customer contact info
