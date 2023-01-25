@@ -77,7 +77,7 @@ body:
       value: |
         ## Contact info
   - type: textarea
-    id: job-to-be-done
+    id: contact-info
     attributes:
       label: Customer contact info
       description: How can the user be updated once the job is finished?
