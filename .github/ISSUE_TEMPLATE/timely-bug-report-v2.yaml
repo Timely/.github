@@ -17,6 +17,48 @@ body:
       placeholder: Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
     validations:
       required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Please provide a clear and concise description of what problem is being experienced.
+      placeholder: |
+        1. _Go to..._
+        2. _Click on..._
+        3. _Scroll down to..._
+        4. _See error..._
+    validations:
+      required: false
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what should happen in the Product (note if this is a missed case or new feature, please raise this [via Productboard](https://memory.slab.com/posts/i-want-to-xxq3acvx))
+      placeholder:
+    validations:
+      required: false
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information / Links / Attachments
+      placeholder: Put anything that will be helpful or required for us to address this issue
+    validations:
+      required: false
+  - type: checkboxes
+    id: impacted-platforms
+    attributes:
+      label: Which platforms/browsers are impacted?
+      description: You may select more than one.
+      options:
+        - label: Web/Desktop
+        - label: Chrome
+        - label: Safari
+        - label: Firefox
+        - label: Edge
+        - label: Other
+        - label: iOS
+        - label: Android
+        - label: Memory App for macOS/Windows
   - type: markdown
     attributes:
       value: |
@@ -70,7 +112,7 @@ body:
         - Medium (15–30 days)
         - Low (30 days+)
     validations:
-      required: true      
+      required: false      
   - type: input
     id: impact
     attributes:
@@ -78,50 +120,4 @@ body:
       description: What will happen if this is not fixed in time?
       placeholder: ex. "person x is blocked from doing their job" 
     validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## Optional: Detailed information
-  - type: textarea
-    id: reproduce
-    attributes:
-      label: Steps to reproduce
-      description: Please provide a clear and concise description of what problem is being experienced.
-      placeholder: |
-        1. _Go to..._
-        2. _Click on..._
-        3. _Scroll down to..._
-        4. _See error..._
-    validations:
       required: false
-  - type: textarea
-    id: expected-behaviour
-    attributes:
-      label: Expected Behavior
-      description: A clear and concise description of what should happen in the Product (note if this is a missed case or new feature, please raise this [via Productboard](https://memory.slab.com/posts/i-want-to-xxq3acvx))
-      placeholder:
-    validations:
-      required: false
-  - type: textarea
-    id: additional-info
-    attributes:
-      label: Additional Information / Links / Attachments
-      placeholder: Put anything that will be helpful or required for us to address this issue
-    validations:
-      required: false
-  - type: checkboxes
-    id: impacted-platforms
-    attributes:
-      label: Which platforms/browsers are impacted?
-      description: You may select more than one.
-      options:
-        - label: Web/Desktop
-        - label: Chrome
-        - label: Safari
-        - label: Firefox
-        - label: Edge
-        - label: Other
-        - label: iOS
-        - label: Android
-        - label: Memory App for macOS/Windows
