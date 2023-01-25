@@ -72,3 +72,16 @@ body:
       placeholder: Use numbered or bullet pointed steps if possible. The more detail, the faster we can get it done!
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## Contact info
+  - type: textarea
+    id: job-to-be-done
+    attributes:
+      label: Customer contact info
+      description: How can the user be updated once the job is finished?
+      placeholder: Intercom conversation link, e-mail etc.
+    validations:
+      required: false
+
