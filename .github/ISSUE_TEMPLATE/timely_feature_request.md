@@ -1,9 +1,9 @@
 ---
 name: Feature Request
-about: Request a new feature
+about: Go to the [Portal](https://portal.timelyapp.com/tabs/2-considerations/submit-idea) to send feature requests.
 ---
 
-## How to submit a feature request
+## Do not add feature requests to Github directly.
 
 To submit a feature request use the [Portal](https://portal.timelyapp.com/tabs/2-considerations/submit-idea) and send your feature request there. 
 
