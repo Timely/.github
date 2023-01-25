@@ -1,6 +1,5 @@
-name: Feature Request
-description: Do not send feature requests directly into Github. Use the Portal. 
-title: "[Ignore This]: "
+name: "Feature Request"
+description: "Do not send feature requests directly into Github. Use the Portal. "
 body:
   - type: markdown
     attributes:
