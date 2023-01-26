@@ -121,3 +121,15 @@ body:
       placeholder: ex. "person x is blocked from doing their job" 
     validations:
       required: false
+        - type: markdown
+    attributes:
+      value: |
+        ## Contact info
+  - type: input
+    id: contact-info
+    attributes:
+      label: Customer contact info
+      description: How can the user be updated once the job is finished?
+      placeholder: Intercom conversation link, e-mail etc.
+    validations:
+      required: false
