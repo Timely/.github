@@ -62,43 +62,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Workspace information
-  - type: input
-    id: workspace-id
+        ## User/Workspace information
+  - type: textarea
+    id: user_workspace_info
     attributes:
-      label: Workspace ID (if applicable)
-      description: Which workspace ID does the bug pertain to?
-      placeholder: ex. 879312
-    validations:
-      required: false
-  - type: dropdown
-    id: subscription-status
-    attributes:
-      label: What is the subscription status of the workspace?
-      options:
-        - In Trial
-        - Paying
-        - Expired
-  - type: input
-    id: workspace-users
-    attributes:
-      label: Number of users on workspace
-      description: Please input the number of users in the workspace. 
-      placeholder: ex. 150
-  - type: input
-    id: workspace-mrr
-    attributes:
-      label: Workspace MRR
-      description: Please input the MRR (current or potential) of the workspace. 
-      placeholder: ex. 150
-  - type: input
-    id: user-id
-    attributes:
-      label: User ID (if applicable)
-      description: Which user ID does the bug pertain to?
-      placeholder: ex. 780101
-    validations:
-      required: false
+      description: Enter workspace/user info for the affected workspace(s):
+      placeholder: 12345678/402312 - 10 paying users
+      value: USER_ID/WORKSPACE_ID – NUM_USERS
   - type: markdown
     attributes:
       value: |
