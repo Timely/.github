@@ -69,7 +69,7 @@ body:
       label: User & Workspace info
       description: Enter workspace/user info for the affected workspace(s)
       placeholder: 12345678/402312 - 10 paying users
-      value: USER_ID/WORKSPACE_ID(Intercom/ Slack Link) – NUM_USERS
+      value: [User ID 2103098/Account ID 855391](Intercom/Slack Link) – X paying users
   - type: markdown
     attributes:
       value: |
