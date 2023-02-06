@@ -66,6 +66,7 @@ body:
   - type: textarea
     id: user_workspace_info
     attributes:
+      label: User & Workspace info
       description: Enter workspace/user info for the affected workspace(s)
       placeholder: 12345678/402312 - 10 paying users
       value: USER_ID/WORKSPACE_ID – NUM_USERS
