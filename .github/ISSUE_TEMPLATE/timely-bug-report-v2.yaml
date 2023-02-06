@@ -69,7 +69,7 @@ body:
       label: User & Workspace info
       description: Enter workspace/user info for the affected workspace(s)
       placeholder: 12345678/402312 - 10 paying users
-      value: - USER_ID/WORKSPACE_ID(Intercom/ Slack Link) – NUM_USERS
+      value: USER_ID/WORKSPACE_ID(Intercom/ Slack Link) – NUM_USERS
   - type: markdown
     attributes:
       value: |
@@ -90,17 +90,5 @@ body:
       label: Impact – what happens if we don't fix it within the timeframe?
       description: What will happen if this is not fixed in time?
       placeholder: ex. "person x is blocked from doing their job" 
-    validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: |
-        ## Contact info
-  - type: input
-    id: contact-info
-    attributes:
-      label: Customer contact info
-      description: How can the user be updated once the bug is fixed?
-      placeholder: Intercom conversation link, e-mail etc.
     validations:
       required: false
