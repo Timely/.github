@@ -67,7 +67,6 @@ body:
     id: user_workspace_info
     attributes:
       description: Enter workspace/user info for the affected workspace(s):
-      placeholder: 12345678/402312 - 10 paying users
       value: USER_ID/WORKSPACE_ID – NUM_USERS
   - type: markdown
     attributes:
@@ -99,7 +98,7 @@ body:
     id: contact-info
     attributes:
       label: Customer contact info
-      description: How can the user be updated once the job is finished?
+      description: How can the user be updated once the bug is fixed?
       placeholder: Intercom conversation link, e-mail etc.
     validations:
       required: false
